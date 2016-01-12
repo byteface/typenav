@@ -1,0 +1,77 @@
+{
+
+	"options": {
+
+		"enabled":"true",
+		"debug":"true",
+		"expandable":"true",
+		"event":"keydown",
+		"autocomplete":"false"
+
+	},
+
+	"nav":[
+		
+		{
+			"keys":["a","A"],
+			"title":"abracadabra",
+			"description":"abracadabra",
+			"url":"/otherpage",
+			"target":"parent",
+			"image":"",
+			"sound":""
+		},
+		{
+			"keys":["b","B"],
+			"title":"Balloon",
+			"description":"this is a balloon description",
+			"url":"http://www.somesite.com#balloon",
+			"target":"blank",
+			"image":"",
+			"sound":""
+
+		},
+		{
+			"keys":["c","C"],
+			"title":"Cobra",
+			"description":"Cobras are awesome",
+			"url":"#cobra",
+			"target":"blank",
+			"image":"",
+			"sound":""
+		},
+		
+		{
+			"keys":["d","D"],
+			"title":"D",
+			"description":"the letter D",
+			"url":"#D",
+			"target":"blank",
+			"image":"",
+			"sound":""
+		},
+
+		{
+			"keys":["e","E"],
+			"title":"E",
+			"description":"the letter E",
+			"url":"#E",
+			"target":"blank",
+			"image":"",
+			"sound":""
+		},
+
+		{
+			"keys":["f","F"],
+			"title":"F",
+			"description":"the letter F",
+			"url":"#F",
+			"target":"blank",
+			"image":"",
+			"sound":""
+		}
+
+
+
+	]
+}
