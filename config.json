@@ -1,77 +1,36 @@
 {
 
 	"options": {
-
-		"enabled":"true",
-		"debug":"true",
-		"expandable":"true",
-		"event":"keydown",
-		"autocomplete":"false"
-
+		"search":false,
+		"expandable":false
 	},
 
 	"nav":[
-		
-		{
-			"keys":["a","A"],
-			"title":"abracadabra",
-			"description":"abracadabra",
-			"url":"/otherpage",
-			"target":"parent",
-			"image":"",
-			"sound":""
-		},
-		{
-			"keys":["b","B"],
-			"title":"Balloon",
-			"description":"this is a balloon description",
-			"url":"http://www.somesite.com#balloon",
-			"target":"blank",
-			"image":"",
-			"sound":""
-
-		},
-		{
-			"keys":["c","C"],
-			"title":"Cobra",
-			"description":"Cobras are awesome",
-			"url":"#cobra",
-			"target":"blank",
-			"image":"",
-			"sound":""
-		},
-		
-		{
-			"keys":["d","D"],
-			"title":"D",
-			"description":"the letter D",
-			"url":"#D",
-			"target":"blank",
-			"image":"",
-			"sound":""
-		},
-
-		{
-			"keys":["e","E"],
-			"title":"E",
-			"description":"the letter E",
-			"url":"#E",
-			"target":"blank",
-			"image":"",
-			"sound":""
-		},
-
-		{
-			"keys":["f","F"],
-			"title":"F",
-			"description":"the letter F",
-			"url":"#F",
-			"target":"blank",
-			"image":"",
-			"sound":""
-		}
-
-
-
+		{"keys":["a"],"url":"#about"},
+		{"keys":["b"],"url":"#blog"},
+		{"keys":["c"],"url":"#contact"},
+		{"keys":["d"],"url":"#developers"},
+		{"keys":["e"],"url":"#events"},
+		{"keys":["f"],"url":"http://www.facebook.com/r8lst","target":"blank"},
+		{"keys":["g"],"url":"#gallery"},
+		{"keys":["h"],"url":"#home"},
+		{"keys":["i"],"url":"#images"},
+		{"keys":["j"],"url":"#jobs"},
+		{"keys":["k"],"url":"#krypton"},
+		{"keys":["l"],"url":"#login"},
+		{"keys":["m"],"url":"#map"},
+		{"keys":["n"],"url":"#news"},
+		{"keys":["p"],"url":"http://www.pinterest.com","target":"blank"},
+		{"keys":["q"],"url":"#questions"},
+		{"keys":["r"],"url":"#register"},
+		{"keys":["s"],"url":"#sitemap"},
+		{"keys":["t"],"url":"http://www.twitter.com/_r8lst","target":"blank"},
+		{"keys":["u"],"url":"#unsbuscribe"},
+		{"keys":["v"],"url":"#void"},
+		{"keys":["w"],"url":"#weather"},
+		{"keys":["x"],"url":"#xylophone"},
+		{"keys":["y"],"url":"#you"},
+		{"keys":["z"],"url":"#zebra"}
 	]
+
 }

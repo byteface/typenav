@@ -51,6 +51,29 @@
 
     nav=[],
 
+    showSearchBox = function(){
+        var typenav = document.getElementsByClassName("typenav")[0];
+        typenav.style.display = "block";
+
+        //var typenav = document.getElementById("typenav");//[0];
+
+        // TODO - add char to search box
+        // TIME OUT CLOSE / DISSAPEAR IF NOTHING TYPED
+    },
+
+    setOptions = function(){
+        var typenav = document.getElementsByClassName("typenav")[0];
+
+        // if its not expandable hide it
+        if( options.expandable === false ){
+            typenav.style.display = "none";
+        }else{
+            typenav.style.display = "block";
+        }
+
+    },
+
+
     init = function(){
         
         // TODO - error handle
@@ -62,12 +85,25 @@
             options = data.options;
             nav = data.nav;
 
+            setOptions();
+
         });
 
         event( d, "keypress", function(e){
             
-            var key = code(e);
-            
+            // if not the document bail to not interupt forms etc
+            if( document.activeElement.tagName !== 'BODY' ){
+                return;
+            }
+
+            if( options.search !== false ){
+                showSearchBox();
+            }
+
+            //TODO - set focus and add chars
+            //document.getElementById("Box1").focus();
+
+            var key = code(e);            
             key = String.fromCharCode(key); // convert code to char
 
             //console.log( 'do some shit' );
@@ -91,7 +127,14 @@
 
                         // console.log( nav[i]['url'] );
                         var url = nav[i]['url'];
-                        window.location = url;
+
+                        // checks for a new window
+                        var t = nav[i]['target'];
+                        if(t==="blank"){
+                            window.open(url,'_blank');
+                        }else{
+                            window.location = url;
+                        }
 
                     }
 
@@ -99,11 +142,8 @@
             }
 
 
-
         });
     };
-
-
 
 
 
@@ -118,6 +158,3 @@
     }
 
 })(document);
-
-
-// if($('input:focus').length == 0){

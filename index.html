@@ -2,17 +2,95 @@
 <html>
 <head>
 <title>typenav</title>
-<script type="text/javascript" src="main.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+
+<style>
+
+.typenav
+{
+	display:none;
+}
+
+form.typenav
+{
+  z-index:100;
+  position:fixed;
+  bottom:10px;
+  left:10px;
+  padding-top: 4px;
+}
+
+form.typenav input {
+	outline: none;
+}
+
+form.typenav input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;;
+}
+
+form.typenav input[type=search] {
+	background: #ededed; /* url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;*/
+	border: solid 1px #ccc;
+	padding: 9px 9px 9px 9px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	transition: all .4s;
+}
+form.typenav input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+}
+
+</style>
+
 </head>
 <body>
 
-<!-- typenav should not happen if form fields in the page have focus -->
-<form>
-some form:
-<input type="text" name="firstname" value="mike"><br>
-<input type="text" name="lastname" value="Mouse"><br><br>
-<input type="submit" value="Submit">
+<div class="container">
+
+	<h1>typenav</h1>
+	<h4>Navigate with your keyboard</h4>
+
+	<br>
+
+	<!-- TODO - typenav should not happen if form fields in the page have focus -->
+	<form>
+	Forms will intentionally block typenav from working.<br>
+	i.e. Click within this field and type freely and nothing will happen:<br>
+	<input type="text">
+	</form>
+
+	<br>
+
+	But click outside the form and typenav will be re-enabled. So the keyboard will trigger the urls.
+
+	<h3 id="pageTitle"></h3>
+
+</div>
+
+
+<!-- typenav search box -->
+<form class="typenav">
+<input type="search" placeholder="Search">
 </form>
+
+<script type="text/javascript" src="typenav.js"></script>
+<script>	
+// simple example responding to hash changes when keys are changed
+window.onhashchange = onURLUpdate;
+function onURLUpdate(){
+	var pageTitle = document.getElementById('pageTitle');
+	pageTitle.innerHTML = window.location.hash;
+}
+</script>
 
 </body>
 </html>
