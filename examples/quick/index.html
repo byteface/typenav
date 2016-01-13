@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>typenav</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+</head>
+<body>
+
+<div class="container">
+	<h1>typenav</h1>
+	<h4>Navigate with your keyboard</h4>
+	<p>Press any letter on the keyboard to navigate. Check the config file to see how to map</p>
+	<h3 id="pageTitle"></h3>
+</div>
+
+<script type="text/javascript" src="typenav.min.js"></script>
+
+<script>	
+// simple example responding to hash changes when keys are changed
+window.onhashchange = onURLUpdate;
+function onURLUpdate(){
+	var pageTitle = document.getElementById('pageTitle');
+	pageTitle.innerHTML = window.location.hash;
+}
+</script>
+
+</body>
+</html>
