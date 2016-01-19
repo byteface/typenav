@@ -1,36 +1,57 @@
 {
 
 	"options": {
+
+		"expandable":false,
+		"event":"keydown",
 		"search":false,
-		"expandable":false
+		"cursor":true
+
 	},
 
 	"nav":[
-		{"keys":["a"],"url":"#about"},
-		{"keys":["b"],"url":"#blog"},
-		{"keys":["c"],"url":"#contact"},
-		{"keys":["d"],"url":"#developers"},
-		{"keys":["e"],"url":"#events"},
-		{"keys":["f"],"url":"http://www.facebook.com/r8lst","target":"blank"},
-		{"keys":["g"],"url":"#gallery"},
-		{"keys":["h"],"url":"#home"},
-		{"keys":["i"],"url":"#images"},
-		{"keys":["j"],"url":"#jobs"},
-		{"keys":["k"],"url":"#krypton"},
-		{"keys":["l"],"url":"#login"},
-		{"keys":["m"],"url":"#map"},
-		{"keys":["n"],"url":"#news"},
-		{"keys":["p"],"url":"http://www.pinterest.com","target":"blank"},
-		{"keys":["q"],"url":"#questions"},
-		{"keys":["r"],"url":"#register"},
-		{"keys":["s"],"url":"#sitemap"},
-		{"keys":["t"],"url":"http://www.twitter.com/_r8lst","target":"blank"},
-		{"keys":["u"],"url":"#unsbuscribe"},
-		{"keys":["v"],"url":"#void"},
-		{"keys":["w"],"url":"#weather"},
-		{"keys":["x"],"url":"#xylophone"},
-		{"keys":["y"],"url":"#you"},
-		{"keys":["z"],"url":"#zebra"}
-	]
+		
+		{
+			"keys":["a"],
+			"title":"Abracadabra",
+			"description":"abracadabra is a magic word",
+			"url":"#a",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["b"],
+			"title":"Balloon",
+			"description":"A balloon is inflateable",
+			"url":"#b",
+			"target":"parent",
+			"image":""
 
+		},
+		{
+			"keys":["c"],
+			"title":"Cobra",
+			"description":"Cobras are awesome",
+			"url":"#cobra",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["d"],
+			"title":"D",
+			"description":"",
+			"url":"http://www.somesite.com",
+			"target":"blank",
+			"image":""
+		},
+		{
+			"keys":["e"],
+			"title":"E",
+			"description":"another page",
+			"url":"/otherpage",
+			"target":"parent",
+			"image":""
+		}
+
+	]
 }

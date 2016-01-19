@@ -8,14 +8,10 @@ If you're a webmaster and use the same site a lot, it's useful to quickly jump a
 
 ## minimum setup...
 
-A example of a minimum set of options and values you would need in a config.json for it to work...
+An minimum example json configuration...
 
 ’’‘
 {
-	"options": {
-		"search":"false",
-		"expandable":false
-	},
 	"keys":[
 		{
 			"key":["c"],
@@ -29,12 +25,12 @@ A example of a minimum set of options and values you would need in a config.json
 }
 ’’‘
 
-In this example typing 'c' or 'h' would immediately trigger the url because the search feature is set to false.
+With this example typing 'c' or 'h' would immediately launch the url
 
 
 ## NOTES
 
-	• If a form field on the page is selected, topnav is disabled to not block users from using textboxes etc
+	• If a form field on the page is selected, typenav is disabled as to not block users from using textboxes etc
 	• Binding to hash urls allows you to expand functionality by triggering anchors or js functions
 
 
