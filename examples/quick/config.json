@@ -1,10 +1,4 @@
 {
-
-	"options": {
-		"search":false,
-		"expandable":false
-	},
-
 	"nav":[
 		{"keys":["a"],"url":"#about"},
 		{"keys":["b"],"url":"#blog"},
@@ -32,5 +26,4 @@
 		{"keys":["y"],"url":"#you"},
 		{"keys":["z"],"url":"#zebra"}
 	]
-
 }

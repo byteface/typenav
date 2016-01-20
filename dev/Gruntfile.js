@@ -10,6 +10,7 @@ module.exports = function(grunt) {
       },
       my_target: {
         files: {
+          '../examples/quick/typenav.min.js': [ 'typenav.js' ],
          '../dist/typenav.min.js': [ 'typenav.js' ],
          '../archive/chromeplugin/chrome-boilerplate/src/typenav.min.js': [ 'typenav.js' ]
         }

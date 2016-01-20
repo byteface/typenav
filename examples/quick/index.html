@@ -14,14 +14,18 @@
 </div>
 
 <script type="text/javascript" src="typenav.min.js"></script>
+<script>
 
-<script>	
-// simple example responding to hash changes when keys are changed
-window.onhashchange = onURLUpdate;
-function onURLUpdate(){
-	var pageTitle = document.getElementById('pageTitle');
-	pageTitle.innerHTML = window.location.hash;
-}
+	// init typenav	
+	TYPENAV.init();
+
+	// simple example responding to hash changes when keys are changed
+	window.onhashchange = onURLUpdate;
+	function onURLUpdate(){
+		var pageTitle = document.getElementById('pageTitle');
+		pageTitle.innerHTML = window.location.hash;
+	}
+	
 </script>
 
 </body>

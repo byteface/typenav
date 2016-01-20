@@ -114,8 +114,11 @@ var TYPENAV = TYPENAV || (function(d){
                 return;
             }
 
-            if( options.search !== false ){
-                showSearchBox();
+            if( options )
+            {
+                if( options.search !== false ){
+                    showSearchBox();
+                }
             }
 
             var key = code(e);            
