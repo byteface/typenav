@@ -83,27 +83,46 @@ var TYPENAV = TYPENAV || (function(d){
     
     run = function(){
         
-        loadConfig( CONFIG_FILE,
+        // if no json blob load the config file
 
-            function success( data ){
-                // alert('loadconfig');
+        if(JSON_BLOB === undefined)
+        {
+            loadConfig( CONFIG_FILE,
 
-                if(data.options){
-                    options = data.options;
+                function success( data ){
+                    // alert('loadconfig');
+
+                    if(data.options){
+                        options = data.options;
+                    }
+
+                    nav = data.nav;
+
+                    setOptions();
+
+                },
+
+                function err( data ){
+                    alert('config load error');
                 }
 
-                nav = data.nav;
+            );
 
-                setOptions();
+        } else {
 
-            },
 
-            function err( data ){
-                alert('config load error');
+            var data = JSON_BLOB;
+
+            if(data.options){
+                options = data.options;
             }
 
+            nav = data.nav;
 
-        );
+            setOptions();
+
+        }
+
 
         event( d, "keypress", function(e){
 
@@ -193,14 +212,21 @@ if(chrome.tabs)
 // expose
 
 CONFIG_FILE = "config.json";
+JSON_BLOB = undefined;
 
 return {
 
-    init : function( config_file ){
+    // pass either a path to a json file. or a json obj
+    init : function( arg ){
 
-        if( config_file != undefined) {
-            CONFIG_FILE = config_file;    
+        if (typeof arg === 'string' || arg instanceof String){
+            CONFIG_FILE = arg;
+            console.log('load file');
+        }else{
+            JSON_BLOB = arg;
+            console.log('use json');
         }
+
 
         if(modern) {
             d.addEventListener("DOMContentLoaded", run, false);

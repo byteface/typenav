@@ -39,8 +39,16 @@
 <script type="text/javascript" src="typenav.js"></script>
 <script type="text/javascript">
 
-	// init typenav	
-	TYPENAV.init();
+	typenav_json = { "nav":[
+		{"keys":["a"],"url":"#abracadabra"},
+		{"keys":["b"],"url":"#barbie"}
+		]
+	}
+
+	// init typenav
+	TYPENAV.init( typenav_json );
+	//TYPENAV.init( 'config.json' );
+	//TYPENAV.init();
 
 	// simple example responding to hash changes when keys are changed
 	window.onhashchange = onURLUpdate;
