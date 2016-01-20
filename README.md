@@ -36,7 +36,8 @@ With this example typing 'c' or 'h' would immediately launch the url
 
 ## EXAMPLES
 
-	• check out examples/quick for first working example
+	• check out examples/quick for quick setup
+	• typenav in action at http://en.r8lst.com/  - press any key on the keyboard to jump to top level nav items
 
 
 ## PLUGIN
