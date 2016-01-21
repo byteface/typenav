@@ -43,13 +43,18 @@ you can now also have longer keys. if you type part of a key it will trigger...
 		{
 			"keys":["cobras"],
 			"url":"/cobras",
+			"target":"parent"
+		},
+		{
+			"keys":["facebook"],
+			"url":"http://www.facebook.com/mypage",
 			"target":"blank"
 		}
 	]
 }
 ```
 
-so typing 'ca' at least would take you to the cats page. typing 'co' to the cobras page.
+so typing 'ca' at least would take you to the cats page, typing 'co' to the cobras page and 'fa' would send the user to your facebook page.
 
 
 ## init
