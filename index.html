@@ -1,86 +1,111 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <meta name="description" content="Typenav : Navigate websites with your keyboard">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Typenav by byteface</title>
+    <title>Typenav</title>
   </head>
 
   <body>
-    <header>
-      <div class="inner">
-        <h1>Typenav</h1>
-        <h2>Navigate websites with your keyboard</h2>
-        <a href="https://github.com/byteface/typenav" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h1>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/byteface/typenav">View on GitHub</a>
+
+          <h1 id="project_title">Typenav</h1>
+          <h2 id="project_tagline">Navigate websites with your keyboard</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/byteface/typenav/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/byteface/typenav/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
 <a id="typenav" class="anchor" href="#typenav" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>typenav</h1>
 
 <h3>
 <a id="navigate-websites-with-the-keyboard" class="anchor" href="#navigate-websites-with-the-keyboard" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Navigate websites with the keyboard</h3>
 
-<p>typenav utilises the keyboard as a quick navigation device and can be setup without much effort. typing 'c' for example could bring up your contact page. or 'h' may take you to the homepage if you so wish.</p>
+<p>typenav enables the keyboard for quick site navigation and can be setup without much effort. It's useful to quickly jump around a website with strokes of the keyboard.</p>
 
-<p>If you're a webmaster and use the same site a lot, it's useful to quickly jump around your site.</p>
+<p>It's very easy to add typenav to your site and enable keyboard navigation for your users. </p>
+
+<p>Also there's a chrome-plugin <em>almost ready</em>, allowing you to navigate lots of websites faster and even add configurations for your own favourite sites.</p>
 
 <h2>
-<a id="minimum-setup" class="anchor" href="#minimum-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>minimum setup...</h2>
+<a id="setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>setup...</h2>
 
-<p>An minimum example json configuration...</p>
+<p>example json configuration...</p>
 
-<p>’’’
-{
-    "keys":[
+<pre><code>{
+    "nav":[
         {
-            "key":["c"],
+            "keys":["c"],
             "url":"/contact"
         },
         {
-            "key":["h"],
+            "keys":["h"],
             "url":"/home"
         }
     ]
 }
-’’‘</p>
+</code></pre>
 
-<p>With this example typing 'c' or 'h' would immediately launch the url</p>
+<p>With this example typing 'c' or 'h' would launch the url</p>
 
 <h2>
 <a id="longer-keys" class="anchor" href="#longer-keys" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>longer keys</h2>
 
 <p>you can now also have longer keys. if you type part of a key it will trigger...</p>
 
-<p>’’’
-{
-    "keys":[
+<pre><code>{
+    "nav":[
         {
-            "key":["cats"],
-            "url":"/cats"
+            "keys":["cats"],
+            "url":"/cats",
+            "target":"parent"
         },
         {
-            "key":["cobras"],
-            "url":"/cobras"
+            "keys":["cobras"],
+            "url":"/cobras",
+            "target":"blank"
         }
     ]
 }
-’’‘</p>
+</code></pre>
 
 <p>so typing 'ca' at least would take you to the cats page. typing 'co' to the cobras page.</p>
+
+<h2>
+<a id="init" class="anchor" href="#init" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>init</h2>
+
+<p>by default typenav loads a config.json from same directory as the html page...</p>
+
+<pre><code>TYPENAV.init();
+</code></pre>
+
+<p>however you can specify the path...</p>
+
+<pre><code>TYPENAV.init( '/path/to/my/config.json' );
+</code></pre>
+
+<p>but even more awesome is you can pass a chunk of json allowing you to build dynamic typenavs on the fly...</p>
+
+<pre><code>typenav_json={"nav":[{"keys":["a"],"url":"#abracadabra"}]}
+
+TYPENAV.init( typenav_json );
+</code></pre>
 
 <h2>
 <a id="notes" class="anchor" href="#notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NOTES</h2>
@@ -92,43 +117,33 @@
 <h2>
 <a id="examples" class="anchor" href="#examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EXAMPLES</h2>
 
-<pre><code>• check out examples/quick for quick setup
-• typenav in action at [r8lst](http://en.r8lst.com)  - press any key on the keyboard to jump to top level nav items
-TODO - dynamic nav example.
-</code></pre>
+<p>check out examples/quick for quick setup
+typenav in action at <a href="http://en.r8lst.com/">http://en.r8lst.com/</a> - press any key on the keyboard to jump to top level nav items
+TODO - dynamic nav example.</p>
 
 <h2>
-<a id="plugin" class="anchor" href="#plugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PLUGIN</h2>
+<a id="chrome-plugin" class="anchor" href="#chrome-plugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CHROME PLUGIN</h2>
 
-<ul>
-<li>TODO - plugin to have it in chrome so hold key and letter jumps to favourite sites</li>
-</ul>
+<p>The chrome plugin loads config files depending on the site you're on. These config files are on github and can be found in the gh-pages branch in the websites folder. So anyone can add a config.json for sites used a lot.</p>
+
+<p>plugin is in /archive at mo whilst i sort it out.</p>
 
 <h2>
 <a id="licence" class="anchor" href="#licence" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>LICENCE</h2>
 
-<ul>
-<li>TODO - sort this to be free to use etc</li>
-</ul>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/byteface/typenav/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/byteface/typenav/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/byteface/typenav"></a> is maintained by <a href="https://github.com/byteface">byteface</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+<p>GPL</p>
+      </section>
     </div>
 
-  
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Typenav maintained by <a href="https://github.com/byteface">byteface</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
   </body>
 </html>
