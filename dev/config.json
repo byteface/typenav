@@ -20,6 +20,22 @@
 			"image":""
 		},
 		{
+			"keys":["ape"],
+			"title":"ape",
+			"description":"ape",
+			"url":"#ape",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["about"],
+			"title":"about",
+			"description":"about",
+			"url":"#about",
+			"target":"parent",
+			"image":""
+		},
+		{
 			"keys":["b"],
 			"title":"Balloon",
 			"description":"A balloon is inflateable",

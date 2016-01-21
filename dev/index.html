@@ -24,7 +24,9 @@
 
 	<br>
 	<p>But click outside the form and typenav will be re-enabled. So the keyboard will trigger the urls.</p>
-	<p>Try typing a,b,c or d for an example</p>
+	<p>Try typing a,b,c or d for an example...</p>
+	<br>
+	<p>also try quickly typing 'ab' or 'ap' to see how longer keys can be used...</p>
 
 	<h3 id="pageTitle"></h3>
 
@@ -39,15 +41,26 @@
 <script type="text/javascript" src="typenav.js"></script>
 <script type="text/javascript">
 
-	typenav_json = { "nav":[
-		{"keys":["a"],"url":"#abracadabra"},
-		{"keys":["b"],"url":"#barbie"}
-		]
-	}
+	/*
+	generate a dynamic typenav
+	*/
+	// typenav_json={"nav":[]};
+
+	// var nav = ['one','two','three','four','five','six','seven','eight','nine','ten']
+	// for(var i=0; i<nav.length; i++){
+	// 	var name = nav[i];
+	// 	typenav_json['nav'].push( {"keys":[ name ],"url":"#"+name} );
+	// }
+
+	// typenav_json = { "nav":[
+	// 	{"keys":["a"],"url":"#abracadabra"},
+	// 	{"keys":["b"],"url":"#barbie"}
+	// 	]
+	// }
 
 	// init typenav
-	TYPENAV.init( typenav_json );
-	//TYPENAV.init( 'config.json' );
+	//TYPENAV.init( typenav_json );
+	TYPENAV.init( 'config.json' );
 	//TYPENAV.init();
 
 	// simple example responding to hash changes when keys are changed

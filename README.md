@@ -28,6 +28,29 @@ An minimum example json configuration...
 With this example typing 'c' or 'h' would immediately launch the url
 
 
+## longer keys
+
+you can now also have longer keys. if you type part of a key it will trigger...
+
+’’‘
+{
+	"keys":[
+		{
+			"key":["cats"],
+			"url":"/cats"
+		},
+		{
+			"key":["cobras"],
+			"url":"/cobras"
+		}
+	]
+}
+’’‘
+
+so typing 'ca' at least would take you to the cats page. typing 'co' to the cobras page.
+
+
+
 ## NOTES
 
 	• If a form field on the page is selected, typenav is disabled as to not block users from using textboxes etc
@@ -38,6 +61,7 @@ With this example typing 'c' or 'h' would immediately launch the url
 
 	• check out examples/quick for quick setup
 	• typenav in action at http://en.r8lst.com/  - press any key on the keyboard to jump to top level nav items
+	TODO - dynamic nav example.
 
 
 ## PLUGIN
