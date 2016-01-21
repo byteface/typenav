@@ -1,0 +1,21 @@
+{
+
+	"nav":[
+
+		{
+			"keys":["t"],
+			"title":"test",
+			"url":"#test",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["a"],
+			"title":"a",
+			"url":"#a",
+			"target":"parent",
+			"image":""
+		}
+	]
+
+}
