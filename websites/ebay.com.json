@@ -1,0 +1,107 @@
+{
+
+	"nav":[
+
+		{
+			"keys":["home","ebay"],
+			"title":"ebay",
+			"url":"http://www.ebay.com",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["motors"],
+			"title":"motors",
+			"url":"http://www.ebay.com/motors",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["fashion"],
+			"title":"fashion",
+			"url":"http://www.ebay.com/rpp/fashion-main",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["electronics"],
+			"title":"electronics",
+			"url":"http://www.ebay.com/rpp/electronics",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["art","collectibles"],
+			"title":"art and collectibles",
+			"url":"http://www.ebay.com/rpp/collectibles-art",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["home","garden"],
+			"title":"home and garden",
+			"url":"http://www.ebay.com/rpp/home-garden/",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["sport"],
+			"title":"sport",
+			"url":"http://www.ebay.com/rpp/sporting-goods",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["toys","hobbies"],
+			"title":"toys and hobbies",
+			"url":"http://www.ebay.com/rpp/Toys-and-Hobbies",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["deals"],
+			"title":"deals",
+			"url":"http://deals.ebay.com/",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["buy","categories"],
+			"title":"categories",
+			"url":"http://www.ebay.com/sch/allcategories/all-categories",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["news"],
+			"title":"news",
+			"url":"https://www.ebayinc.com/stories/news/",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["careers","jobs"],
+			"title":"careers",
+			"url":"https://careers.ebayinc.com/join-our-team/start-your-search/",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["search"],
+			"title":"search",
+			"url":"http://www.ebay.com/sch/ebayadvsearch",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["help","contact"],
+			"title":"help and contact",
+			"url":"http://ocsnext.ebay.com/ocs/home?",
+			"target":"parent",
+			"image":""
+		}
+
+
+	]
+
+}

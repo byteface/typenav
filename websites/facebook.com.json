@@ -1,0 +1,28 @@
+{
+
+	"nav":[
+
+		{
+			"keys":["home","facebook"],
+			"title":"home",
+			"url":"http://www.facebook.com",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["messages"],
+			"title":"messages",
+			"url":"https://www.facebook.com/messages/",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["developer"],
+			"title":"developer",
+			"url":"https://developer.facebook.com",
+			"target":"parent",
+			"image":""
+		}
+	]
+
+}

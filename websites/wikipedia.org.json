@@ -1,0 +1,58 @@
+{
+
+	"nav":[
+
+		{
+			"keys":["home","wikipedia"],
+			"title":"wikipedia",
+			"url":"http://www.wikipedia.com",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["random"],
+			"title":"wikipedia",
+			"url":"https://en.wikipedia.org/wiki/Special:Random",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["about"],
+			"title":"about",
+			"url":"https://en.wikipedia.org/wiki/Wikipedia:About",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["donate"],
+			"title":"donate",
+			"url":"https://donate.wikimedia.org/w/index.php?title=Special:FundraiserLandingPage",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["news"],
+			"title":"news",
+			"url":"https://en.wikipedia.org/wiki/Portal:Current_events",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["contact"],
+			"title":"contact",
+			"url":"https://en.wikipedia.org/wiki/Wikipedia:Contact_us",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["contact"],
+			"title":"contact",
+			"url":"https://en.wikipedia.org/wiki/Special:UserLogin",
+			"target":"parent",
+			"image":""
+		}
+
+
+	]
+
+}

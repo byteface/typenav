@@ -1,0 +1,28 @@
+{
+
+	"nav":[
+
+		{
+			"keys":["home","twitter"],
+			"title":"twitter",
+			"url":"http://www.twitter.com",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["messages"],
+			"title":"messages",
+			"url":"https://www.facebook.com/messages/",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["developer"],
+			"title":"developer",
+			"url":"https://dev.twitter.com/",
+			"target":"parent",
+			"image":""
+		}
+	]
+
+}

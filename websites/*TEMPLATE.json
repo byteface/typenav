@@ -1,0 +1,27 @@
+{
+
+	"nav":[
+		{
+			"keys":["about"],
+			"title":"about",
+			"url":"/about",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["contact"],
+			"title":"contact",
+			"url":"/contact",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["home"],
+			"title":"home",
+			"url":"/home",
+			"target":"parent",
+			"image":""
+		}
+	]
+
+}

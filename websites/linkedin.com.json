@@ -1,0 +1,71 @@
+{
+
+	"nav":[
+
+		{
+			"keys":["home","linkedin"],
+			"title":"linkedin",
+			"url":"http://www.linkedin.com",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["jobs"],
+			"title":"jobs",
+			"url":"https://www.linkedin.com/job/home",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["messages"],
+			"title":"messages",
+			"url":"https://www.linkedin.com/messaging/",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["companies"],
+			"title":"companies",
+			"url":"https://www.linkedin.com/company/home",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["groups"],
+			"title":"groups",
+			"url":"https://www.linkedin.com/groups/",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["about"],
+			"title":"about",
+			"url":"https://www.linkedin.com/about-us?trk=hp-about",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["help"],
+			"title":"help",
+			"url":"https://help.linkedin.com/app/home/",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["careers"],
+			"title":"careers",
+			"url":"https://www.linkedin.com/company/linkedin/careers?trk=hb_ft_work",
+			"target":"parent",
+			"image":""
+		},
+		{
+			"keys":["advertising"],
+			"title":"advertising",
+			"url":"https://www.linkedin.com/ad/start",
+			"target":"parent",
+			"image":""
+		}
+
+	]
+
+}
