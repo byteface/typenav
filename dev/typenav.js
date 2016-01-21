@@ -203,10 +203,6 @@ var TYPENAV = TYPENAV || (function(d){
         }
 
 
-        // alert('DOCUMENT --');
-        // alert(d);
-
-
         event( d, "keypress", function(e){
 
             // alert('keypressed');
@@ -255,20 +251,15 @@ JSON_BLOB = undefined;
 
 
 
-// WORKING! -- now just need to call this from the background file.
-// alert('i was loaded');
-// CONFIG_FILE = "http://en.r8lst.com/static/data/international/typenav_r8lst.json";
-// run();
-
-// alert('fuck');
-// alert('Example:' + config);
+// test loading json from gh-pages if is a chrome plugin
+if(chrome_config){
+   // init( chrome_config );
+   CONFIG_FILE=chrome_config;
+   run();
+}
 
 
 return {
-
-    twat : function(twat){
-        alert('what a fucking twat');
-    },
 
     // pass either a path to a json file. or a json obj
     init : function( arg ){

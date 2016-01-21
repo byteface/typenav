@@ -5,11 +5,10 @@ if(chrome.tabs)
 
             // alert( tab.url );
 
-
-
             // http://stackoverflow.com/questions/17567624/pass-parameter-using-executescript-chrome
             chrome.tabs.executeScript(tab.id, {
-                code: 'var config = 1;'
+                // code: 'var chrome_config='+tab.url
+                code: 'var chrome_config="http://byteface.github.io/typenav/websites/carpicker.net.json"'
             }, function() {
                 chrome.tabs.executeScript(tab.id, {file: 'src/typenav.min.js' });
             });
