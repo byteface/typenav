@@ -182,7 +182,8 @@ var TYPENAV = TYPENAV || (function(d){
                 },
 
                 function err( data ){
-                    alert('config load error');
+                    // alert('config load error');
+                    console.log('config load error');
                 }
 
             );
@@ -257,6 +258,10 @@ if(chrome_config){
    CONFIG_FILE=chrome_config;
    run();
 }
+// TODO - if fail load the template?
+// http://byteface.github.io/typenav/websites/*TEMPLATE.json
+
+
 
 
 return {
