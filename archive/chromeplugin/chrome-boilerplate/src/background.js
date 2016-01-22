@@ -47,5 +47,9 @@ if(chrome.tabs)
     });
 }
 
+
 //icon on/off
 //https://developer.chrome.com/extensions/examples/extensions/talking_alarm_clock/background.js
+
+// TODO - seems to be working
+// chrome.browserAction.setIcon({'path': 'icons/icon19-disabled.png'});
