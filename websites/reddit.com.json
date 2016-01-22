@@ -2,307 +2,307 @@
 	"nav":[
 
 		{
-			"key":["askreddit"],
+			"keys":["askreddit"],
 			"url":"https://www.reddit.com/r/AskReddit/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["funny"],
+			"keys":["funny"],
 			"url":"https://www.reddit.com/r/funny/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["worldnews"],
+			"keys":["worldnews"],
 			"url":"https://www.reddit.com/r/worldnews/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["videos"],
+			"keys":["videos"],
 			"url":"https://www.reddit.com/r/videos/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["todayilearned","til"],
+			"keys":["todayilearned","til"],
 			"url":"https://www.reddit.com/r/todayilearned/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["pics"],
+			"keys":["pics"],
 			"url":"https://www.reddit.com/r/pics/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["movies"],
+			"keys":["movies"],
 			"url":"https://www.reddit.com/r/movies/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["news"],
+			"keys":["news"],
 			"url":"https://www.reddit.com/r/news/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["gifs"],
+			"keys":["gifs"],
 			"url":"https://www.reddit.com/r/gifs/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["gaming"],
+			"keys":["gaming"],
 			"url":"https://www.reddit.com/r/gaming/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["showerthoughts"],
+			"keys":["showerthoughts"],
 			"url":"https://www.reddit.com/r/Showerthoughts/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["aww"],
+			"keys":["aww"],
 			"url":"https://www.reddit.com/r/aww/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["tifu"],
+			"keys":["tifu"],
 			"url":"https://www.reddit.com/r/tifu/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["iama"],
+			"keys":["iama"],
 			"url":"https://www.reddit.com/r/IAmA/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["mildlyinteresting"],
+			"keys":["mildlyinteresting"],
 			"url":"https://www.reddit.com/r/mildlyinteresting/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["music"],
+			"keys":["music"],
 			"url":"https://www.reddit.com/r/Music/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["explainlikeimfive"],
+			"keys":["explainlikeimfive"],
 			"url":"https://www.reddit.com/r/explainlikeimfive/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["nottheonion"],
+			"keys":["nottheonion"],
 			"url":"https://www.reddit.com/r/nottheonion/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["jokes"],
+			"keys":["jokes"],
 			"url":"https://www.reddit.com/r/Jokes/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["television"],
+			"keys":["television"],
 			"url":"https://www.reddit.com/r/television/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["science"],
+			"keys":["science"],
 			"url":"https://www.reddit.com/r/science/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["photoshopbattles"],
+			"keys":["photoshopbattles"],
 			"url":"https://www.reddit.com/r/photoshopbattles/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["fitness"],
+			"keys":["fitness"],
 			"url":"https://www.reddit.com/r/Fitness/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["books"],
+			"keys":["books"],
 			"url":"https://www.reddit.com/r/books/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["space"],
+			"keys":["space"],
 			"url":"https://www.reddit.com/r/space/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["food"],
+			"keys":["food"],
 			"url":"https://www.reddit.com/r/food/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["lifeprotips"],
+			"keys":["lifeprotips"],
 			"url":"https://www.reddit.com/r/LifeProTips/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["twoxchromosomes"],
+			"keys":["twoxchromosomes"],
 			"url":"https://www.reddit.com/r/TwoXChromosomes/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["creepy"],
+			"keys":["creepy"],
 			"url":"https://www.reddit.com/r/creepy/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["oldschoolcool"],
+			"keys":["oldschoolcool"],
 			"url":"https://www.reddit.com/r/OldSchoolCool/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["dataisbeautiful"],
+			"keys":["dataisbeautiful"],
 			"url":"https://www.reddit.com/r/dataisbeautiful/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["earthporn"],
+			"keys":["earthporn"],
 			"url":"https://www.reddit.com/r/EarthPorn/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["diy"],
+			"keys":["diy"],
 			"url":"https://www.reddit.com/r/DIY/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["sports"],
+			"keys":["sports"],
 			"url":"https://www.reddit.com/r/sports/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["documentaries"],
+			"keys":["documentaries"],
 			"url":"https://www.reddit.com/r/Documentaries/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["futurology"],
+			"keys":["futurology"],
 			"url":"https://www.reddit.com/r/Futurology/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["history"],
+			"keys":["history"],
 			"url":"https://www.reddit.com/r/history/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["upliftingnews"],
+			"keys":["upliftingnews"],
 			"url":"https://www.reddit.com/r/UpliftingNews/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["personalfinance"],
+			"keys":["personalfinance"],
 			"url":"https://www.reddit.com/r/personalfinance/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["askscience"],
+			"keys":["askscience"],
 			"url":"https://www.reddit.com/r/askscience/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["writingprompts"],
+			"keys":["writingprompts"],
 			"url":"https://www.reddit.com/r/WritingPrompts/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["art"],
+			"keys":["art"],
 			"url":"https://www.reddit.com/r/Art/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["internetisbeautiful"],
+			"keys":["internetisbeautiful"],
 			"url":"https://www.reddit.com/r/InternetIsBeautiful/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["getmotivated"],
+			"keys":["getmotivated"],
 			"url":"https://www.reddit.com/r/GetMotivated/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["nosleep"],
+			"keys":["nosleep"],
 			"url":"https://www.reddit.com/r/nosleep/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["gadgets"],
+			"keys":["gadgets"],
 			"url":"https://www.reddit.com/r/gadgets/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["listentothis"],
+			"keys":["listentothis"],
 			"url":"https://www.reddit.com/r/listentothis/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["philosophy"],
+			"keys":["philosophy"],
 			"url":"https://www.reddit.com/r/philosophy/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["announcements"],
+			"keys":["announcements"],
 			"url":"https://www.reddit.com/r/announcements/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["blog"],
+			"keys":["blog"],
 			"url":"https://www.reddit.com/r/blog/",
 			"target":"parent",
 			"image":""
 		},
 		{
-			"key":["technology"],
+			"keys":["technology"],
 			"url":"https://www.reddit.com/r/technology/",
 			"target":"parent",
 			"image":""
